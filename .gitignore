@@ -1,0 +1,14 @@
+# Datasets
+*.zip
+Final DataSets/
+Sample DataSets/
+
+# Models
+*.joblib
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/

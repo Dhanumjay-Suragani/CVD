@@ -1,0 +1,12 @@
+HEART DISEASE PREDICTION MODEL REPORT
+=============================================
+
+Accuracy  : 0.8350
+Precision : 0.8142
+Recall    : 0.9030
+F1 Score  : 0.8563
+ROC AUC   : 0.9178
+
+Confusion Matrix:
+[[104  34]
+ [ 16 149]]

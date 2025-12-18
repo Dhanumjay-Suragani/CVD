@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Heart Disease Predictor 💓</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>💓 Heart Disease Risk Predictor</h1>
+    <form id="predictForm">
+      <input type="number" name="age" placeholder="Age" required>
+      <input type="number" name="sex" placeholder="Sex (1=Male, 0=Female)" required>
+      <input type="number" name="cp" placeholder="Chest Pain Type (0–3)" required>
+      <input type="number" name="trestbps" placeholder="Resting BP" required>
+      <input type="number" name="chol" placeholder="Cholesterol" required>
+      <input type="number" name="fbs" placeholder="Fasting Sugar >120 (1/0)" required>
+      <input type="number" name="restecg" placeholder="Rest ECG (0–2)" required>
+      <input type="number" name="thalach" placeholder="Max Heart Rate" required>
+      <input type="number" name="exang" placeholder="Exercise Angina (1/0)" required>
+      <input type="number" name="oldpeak" step="any" placeholder="Oldpeak" required>
+      <input type="number" name="slope" placeholder="Slope (0–2)" required>
+      <input type="number" name="ca" placeholder="Major Vessels (0–3)" required>
+      <input type="number" name="thal" placeholder="Thal (0–3)" required>
+      <button type="submit">Predict</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
